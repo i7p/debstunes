@@ -12,10 +12,10 @@ const dataset = [
     "left-as-an-exercise.mp3",
     "lets-talk-outside.mp3",
     "lets-try-to-settle-down.mp3",
-    "no.mp3",
+    "no2.mp3",
     "omega.mp3",
     "probability.mp3",
-    "probility1.mp3",
+    "probility3.mp3",
     "random-variable.mp3",
     "right.mp3",
     "sigma-algebra.mp3",
@@ -23,7 +23,14 @@ const dataset = [
     "we-dont-really-care.mp3",
     "we-wont-be-much-concerned.mp3",
     "write-to-me.mp3",
-    "yes-please.mp3"
+    "yes-please.mp3",
+    "ah-here-no.mp3",
+    "any-mistakes.mp3",
+    "did-i-write-it.mp3",
+    "i-cant-find-it.mp3",
+    "lotus.mp3",
+    "ofc-this-doesnt-contribute.mp3",
+    "so-this-is-an-ugly-looking-summation.mp3"
 ];
 
 function pc(n){
