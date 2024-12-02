@@ -15,7 +15,7 @@ const dataset = [
     "no.mp3",
     "omega.mp3",
     "probability.mp3",
-    "probility.mp3",
+    "probility1.mp3",
     "random-variable.mp3",
     "right.mp3",
     "sigma-algebra.mp3",
