@@ -11,9 +11,20 @@
     <body>
         <h1>Debstunes</h1>
         <h2>Debleena's Version</h2>
-        <blockquote>Adverts run on this website - proceeds will go to the National Trust to plant some trees!</blockquote>
+        <blockquote>This website may be monetized - proceeds will go to the National Trust to plant some trees in her name</blockquote>
         <p>Press a button - see what it plays</p>
+        
+        <div style="padding:5px; margin:10px;border:#68246D dashed 3px;">
+            <input 
+                type="text" 
+                id="searchBar" 
+                placeholder="Search for a phrase..." 
+                oninput="handleSearch(event)" 
+                style="width: 75%; padding: 10px; font-size: 16px;">
+        </div>
+        
         <div id="player" style="display: none;"></div>
+
         <button class="surprise" onclick="surpriseMe()">Surprise me!</button>
         <button onclick="pc(24)">Yes Please</button>
         <button onclick="pc(13)">No</button>
@@ -47,6 +58,27 @@
         <button onclick="pc(29)">LOTUS; Law of the Unconcious Statiscitian</button>
         <button onclick="pc(30)">Of course this does not contribute!</button>
         <button onclick="pc(31)">So this... is an ugly looking summation</button>
+        <button onclick="pc(32)">Do you know what it is?</button>
+        <button onclick="pc(33)">I have no idea :/</button>
+        <button onclick="pc(34)">Debleena vs IT System</button>
+        <button onclick="pc(35)">Oops!</button>
+        <button onclick="pc(36)">Roll a fair die</button>
+        <button onclick="pc(37)">[Thinks]</button>
+        <button onclick="pc(38)">What is Raffle?!!</button>
 
+        <script>
+            function handleSearch(event) {
+                const query = event.target.value.toLowerCase();
+                console.log(`Searching for: ${query}`);
+                const buttons = document.querySelectorAll('button');
+                buttons.forEach(button => {
+                    if (button.textContent.toLowerCase().includes(query)) {
+                        button.style.display = 'inline-block';
+                    } else {
+                        button.style.display = 'none';
+                    }
+                });
+            }
+        </script>
     </body>
 </html>
