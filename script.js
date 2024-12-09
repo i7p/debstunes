@@ -42,7 +42,12 @@ const dataset = [
     "find-her-an-eraser.mp3",
     "need-some-proof.mp3",
     "some-few-minutes-left.mp3",
-    "so-recall-that-this-pen-is-dying.mp3"
+    "so-recall-that-this-pen-is-dying.mp3",
+    "good-old-days-of-sandwich.mp3",
+    "having-fun.mp3",
+    "snitches-told-debleena.mp3",
+    "squeaky-chair.mp3",
+    "supportive-debleena.mp3"
 ];
 
 function pc(n){
